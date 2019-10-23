@@ -1,0 +1,182 @@
+/*Feuille de style du tp05.html de Laurent PERARD*/
+@media screen and (max-width: 768px) {
+  .petit_ecran
+  {
+    display: none;
+  }
+  .art
+  {
+    padding: 0.5em;
+
+  }
+
+}
+@media (min-width: 10px) and (max-width: 900px) {
+  *{
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .h1{
+    font-size: 200%;
+  }
+  .img{
+    max-width: 100%;
+    height: auto;
+  }
+  p{
+    hyphens: auto;
+  }
+}
+
+*{
+  font-family: Tahoma Geneva sans-serif;
+  text-align: center;
+}
+
+.h1{
+  weight: 300%;
+  margin: 0px;
+  color: white;
+  text-align: center;
+  line-height:211px;
+}
+
+#page{
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: auto;
+}
+
+#banniere{
+  height: 211px;
+  background-image: url(banniere.jpg);
+
+}
+
+#sidebar{
+float: right;
+weight: 23%;
+margin-top: 1em;
+background-color: black;
+color: white;
+}
+
+article{
+  margin-top: 1em;
+  padding: 1em;
+  background-color: white;
+}
+
+article h2{
+  font-size: 160%;
+}
+
+#menu, #menu ul{
+  list-style: none;
+  color: black;
+  background-color: yellow;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+#menu li{
+  display: inline-block;
+  position: relative;
+}
+
+#menu li a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+#menu li a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+
+}
+
+#menu ul {
+  left: -1000em;
+  position: absolute;
+}
+
+#menu li:hover > ul {
+  left: 0;
+}
+
+#content{
+  margin-left: 170px;
+  flex-grow: 1;
+}
+
+.article{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.deux_colonnes{
+   column-count: 2;
+   font-style: italic;
+}
+
+#footer{
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 20px;
+  clear: both;
+}
+
+.header{
+  padding: 1em;
+  background-color: yellow;
+  color: black;
+}
+
+.img{
+  float: left;
+  margin: 1em;
+  height: 200px;
+}
+
+.aside{
+  margin-right: 3em;
+  margin-left: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em
+  padding: 1em;
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-color: yellow;
+  font-style: italic;
+  font-weight: 0.8em;
+  clear: both;
+}
+
+.footer{
+  color: white;
+  font-size: 0.8em;
+  background-color: black;
+}
+
+
+
+
+}
